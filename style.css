@@ -874,18 +874,20 @@ textarea {
     }
 
     .slides {
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
     }
 
     .pimg {
-        max-width: 100%;
+        max-width: 50%;
     }
 
     .sticky {
+        display: none;
         margin: 0;
         aspect-ratio: 200 / 193;
         height: auto;
-        width: 60%;
+        width: 20%;
         bottom: 0;
         transform: rotate(-20deg) translateY(40%);
         padding: 4%;
@@ -893,7 +895,13 @@ textarea {
     }
 
     .controls {
-        display: none;
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        transform: translateY(-50%);
+        padding: 0 10px;
     }
 
     .in-touch {
