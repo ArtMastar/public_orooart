@@ -50,6 +50,10 @@ html {
     overflow-x: hidden;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* Body and Main */
 body {
     background-image: url("assets/images/paper2.webp");
@@ -194,9 +198,11 @@ nav button:hover {
 /* Hero Section */
 #hero {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 90vh;
+    padding-top: 10vh;
+    height: 80vh;
 }
 
 #logo {
