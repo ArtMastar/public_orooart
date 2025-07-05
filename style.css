@@ -52,6 +52,7 @@ html {
 
 a{
     text-decoration: none;
+    color: inherit;
 }
 
 /* Body and Main */
@@ -162,6 +163,7 @@ button {
 
 #title span {
     background-color: rgba(154, 100, 0, 0.45);
+    color: #000000;
 }
 
 nav button a {
@@ -400,6 +402,10 @@ path {
 section {
     padding: 2em;
     border: none;
+}
+
+h2{
+    font-size: 4.5em;
 }
 
 h2,
